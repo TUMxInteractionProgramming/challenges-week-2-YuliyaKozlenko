@@ -1,0 +1,102 @@
+    /* #2 #colorful #palette is:
+          * Background: #F5F5F5 (GREY 100)
+          * Primary Text: black
+
+          * Primary color: #3F51B5 (INDIGO)
+          * Primary color_text : white
+          * Accent color: #CDDC39 (LIME)
+          * Accent color_text: black
+          */
+
+/*global styles */
+        * {
+            /* #2 #font #faces */
+            font-family: 'Arial', sans-serif;
+            margin: 0px;
+            padding: 0px;
+           
+        }
+        strong, button {
+            text-transform: uppercase;
+        }
+        body {
+            /* #2 #colorful #background */
+            background-color: #F5F5F5;
+        }
+/*app bar*/
+        h1 {
+            /* #2 #colourful #app-bar */
+            background-color: #3F51B5;
+            color: white;
+        }
+/*tab bar*/
+        button {
+            /* #2 #colourful #plusfive */
+            background-color: #CDDC39;
+            color: black;
+            text-align: center; 
+            height: 72px;
+            width: 33%;
+            padding: 16px;
+        
+        }
+        .selected {
+            border-bottom: 4px solid #3F51B5
+        }
+        #tab button {
+            background-color:white;
+            border-style: none;
+            font-size: 13px;
+            height: 72px;
+        }
+
+/*channel list*/
+        /*styles for channel area*/
+        h2 {
+            /* #2 #colorful #channelandchat */
+            background-color: white;
+        }
+          /*The channel list has a white background*/
+          ul {
+            background-color:white;
+            padding: 16px;
+            font-size: 16px;
+          }
+           li {border-bottom: 1px solid lightgray;
+        }
+/*messages*/
+        /*styles for chat area*/
+        p {
+            /* #2 #colorful #channelandchat */
+            background-color: white;
+            padding: 16px;
+        }
+
+        h3 {
+            /* #2 #font #metadata is now medium */
+            font-size: medium;
+        }
+
+        em {
+            /* #2 #font #remaining overrides the default italic appearance of em elements*/
+            font-size: larger;
+            font-style: normal;
+        }
+      
+        /*w3w locations have primary text color*/
+        a {
+            color:black;
+          }
+   
+      .messages {
+         width:80%; 
+         margin-bottom: 8px;
+       margin-left: 2,5px;
+      }
+      .own {
+          margin-left: 17,5%;
+      }
+    .selectedChannel{
+        border-left: 4px solid #3F51B5;
+        color: #3F51B5;
+    }
